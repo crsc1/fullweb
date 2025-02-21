@@ -1,0 +1,217 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display:flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    color: #333;
+    background-color: #fff;
+    line-height: 1.4;
+ 
+  }
+
+  /* Header */
+
+  header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background-color: #1F2937;
+  } 
+
+  .logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+
+  nav ul li a {
+    color: #fff;
+
+  }
+
+  /* Hero section */
+
+  .hero {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background-color: #1F2937;
+
+  }
+
+  .hero-text {
+    color:#fff;
+    width: 60%;
+  }
+
+  .hero-image {
+    display: flex;
+    width: 300px;
+    height: 200px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .signup-btn {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+
+  /* INFORMATION SECTION */
+
+  .info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: auto; /* Let height adjust based on content */
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .card p {
+    margin-top: 20px; /* Adds spacing between image and text */
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+  }
+
+  .card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;    
+  }
+
+  /* QUOTE SECTION */
+
+  .quote-section {
+    padding: 30px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quote {
+    width: 60%;
+    font-style: italic;
+    padding: 30px;
+    text-align: center;
+    margin: 0 auto 15px auto;
+    padding: 10px 0;
+
+  }
+
+  .author {
+    font-weight: bold;
+    text-align: right;
+    width: 60%;
+  }
+
+  /* CTA SECTION */
+
+  .cta-section {
+    background-color: #3B82F6;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    width: 80%;
+    max width: 1000px;
+    margin: 50px auto;
+    border-radius: 10px;
+  }
+
+  .cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+  }
+
+  .cta-container h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .cta-container p {
+    font-size: 1rem;
+    opacity: 0.9;
+    margin: 0;
+  }
+
+  .cta-container div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cta-container button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .cta-container button:hover {
+    background-color: white;
+    color: #3B82F6;
+}
+
+/* FOOT SECTION */
+
+footer {
+    text-align: center;
+    color: #fff;
+    background-color: #1F2937;
+    padding: 30px 0;
+
+}
+
+    
+
+
+
+
+
